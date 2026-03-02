@@ -1,0 +1,4 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { color: #f9fafb; font-family: Inter, sans-serif; }
+.mono { font-family: 'JetBrains Mono', monospace; }
+.card { @apply bg-[#111827]/80 border border-[#1f2937] rounded-xl p-4; }
